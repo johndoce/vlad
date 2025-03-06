@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Vladimer C. Doce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="Untitled-2.css">
+</head> <link rel="stylesheet" href="Doc.css">
+<body>
+    <nav class="nav">
+        <div class="logo">MyPortfolio</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+        <input type="search" placeholder="Search..." class="search-bar">
+    </nav>
+
+    <main class="main-content" id="home">
+        <div class="profile-section">
+            <img src="profile.jpg" alt="Profile" class="profile-image">
+        </div>
+        <div class="content-text">
+            <h2>Hi, I'm John Vladimer C. Doce!</h2>
+            <p>I'm Student at San Sebastian College Recoletos De Cavite</p>
+            <a href="#feedback" class="portfolio-btn">Feedback</a>
+        </div>
+    </main>
+
+    <section id="skills" class="section">
+        <h1>Skills</h1>
+        <ul class="lists">
+            <li>Leadership experience</li>
+            <li>Attention to detail</li>
+            <li>Communication</li>
+            <li>Cooperation</li>
+            <li>Organization </li>
+            <li>Honesty</li>
+           
+
+
+        </ul>
+    </section>
+
+    <section id="contact" class="section">
+        <h1>Contact</h1>
+        <p class="spaced-paragraph">Hi If you want to contact me and communicate I'm happy to respond to your concern or anything you want to talk about!</p>
+
+        <p class="spaced-paragraph">I really love to communicate and talk to everyone If you want to message me just click the icons below and I'm really happy to respond to your concern or topic want to talk about! </p>
+        
+        <div class="contact-content">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/Blooodymire/" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.tiktok.com/@jayveeszxc" target="_blank" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/jayveedoce/?hl=en" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="tel:0995558031" target="_blank" class="social-icon"><i class="fas fa-phone"></i></a>
+                
+                 <link rel="StudentPort.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+            </div>
+        </div>
+    </section>
+
+   <section id="about" class="section">
+    <h1>About Me</h1>
+    <p>
+        I'm John Vladimer C. Doce , A currently BSIT Student at San Sebastian College Recoletos de Cavite.
+        Hello! I'm passionate playing Valorant or any Online Games, and I love to sleep because it help me to relieve some stress to me.
+        <div class="image-container">
+            <img src="gold.jpg" alt="Profile" class="profile-image">
+            <img src="Pew.png" alt="Profile" class="profile-image">
+            <img src="G.jpg" alt="Profile" class="profile-image">
+        </div>
+</section>
+
+    
+<section id="contact" class="card contact-section">
+    <h2>Contact</h2>
+    <form id="contactForm" class="contact-form">
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Submit</button>
+        <div id="formMessage"></div>
+    </form>
+</section>
+
+    <script>
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+}
+    const formData = {
+        name: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        message: document.getElementById('message').value
+    };
+
+    
+
+    </script>
+
+</body>
+</html>      
+
